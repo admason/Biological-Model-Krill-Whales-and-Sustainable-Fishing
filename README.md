@@ -53,6 +53,13 @@ For fishing for whales only, set f(1) = 0 , f(2) =1.
 
 
 
+Conclusion:
+It is observed that the Whale population has more influence upon the dynamics of the predator prey relationship on display in this investigation.
+The rapid drops in the whale population indicates how much krill is consumed by the whales, wheras the absence of a whale population result in the expected explosion of krill.
+The whale produces offspring at a much lower rate than krill, therefore the dynamics take much longer to rebalance when a reduction in whales occurs.
+Krill fishing appear not to affect the whale population too significantly.
+The population equilibrium may be maintained with less cost to the whales if fishing for both species is kept to equal measure.
+Although the whale population slowly drops, this recommended equal fishing will need close surveilence since this model does not account for unforeseen problems such as disease and climate change.
 
 
 
