@@ -39,6 +39,16 @@ This code simulates the temporal evolution of the krill and whales by using diff
 The user may vary the krill consumption rate by altering the variable v:
 
 
+Code 3: Introduction of Fishing
+Let's include a further factor which simulates the presence of the fishing industry and it's influence on the Krill and Whale populations.
+Assuming that v=0.33.
+Fishers catch both whales and krill.
+The population equations are adjusted as such:
+Krill:	k(n+1) = k(n) + r(1)*k(n)*(1-k(n)) - v*b(n)*k(n) - f(1)*r(2)*k(n)
+Whale:	b(n+1) = b(n) + r(2)*b(n)*(1 - b(n)/k(n) ) - f(2)*r(2)*b(n)
+Where f(1) and f(2) are the fractions of whales and krill caught respectively, both are bounded with [0,1]
+Start with f(1)=f(2)=0 in order to simulate the absence of any fishing activity.
+
 
 
 
