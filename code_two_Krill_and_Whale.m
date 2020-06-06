@@ -15,8 +15,9 @@ for n=2:1000
     b(n)=b(n-1)+r2*b(n-1)*(1-(b(n-1))/(k(n-1)));
 end
 plot(k)
-title('Exercise 10.2.3 Krill model')
-xlabel('Time')
-ylabel('Population')
 hold on
 plot(b)
+title('Populations: Krill Fishing');
+legend('Krill','Whales');
+xlabel('Iterations');
+ylabel('Population, proportionate [0,1]');
