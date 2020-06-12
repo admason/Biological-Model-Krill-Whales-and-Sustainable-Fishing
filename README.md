@@ -1,4 +1,5 @@
 # Biological-Model-Krill-Whales-and-Sustainable-Fishing
+Read the full article at https://www.researchgate.net/publication/342134994_Biological-Model-Krill-Whales-and-Sustainable-Fishing
 Analysis for Krill and Whale populations to aid decisions for sustainable fishing.
 
 The model will account for the whale population in a particular sea and for the abundance of krill, their favourite food.
